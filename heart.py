@@ -35,3 +35,19 @@ def heart():
 
 	# Ending the filling of the color 
 	pen.end_fill() 
+def txt(): 
+  
+     
+    pen.up() 
+  
+    # Move turtle to a given position 
+    pen.setpos(-68, 95) 
+  
+    # Move the turtle to the ground 
+    pen.down() 
+  
+    # Set the text color to lightgreen 
+    pen.color('pink') 
+    pen.write("GeeksForGeeks", font=( 
+      "Verdana", 12, "bold")) 
+  
