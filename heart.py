@@ -3,7 +3,6 @@ import turtle
  
 pen = turtle.Turtle() 
 
- 
 def curve(): 
 	for i in range(200): 
 
@@ -36,3 +35,27 @@ def heart():
 
 	# Ending the filling of the color 
 	pen.end_fill() 
+def txt(): 
+  
+     
+    pen.up() 
+  
+    # Move turtle to a given position 
+    pen.setpos(-68, 95) 
+  
+    # Move the turtle to the ground 
+    pen.down() 
+  
+    # Set the text color to lightgreen 
+    pen.color('pink') 
+    pen.write("Heart", font=( 
+      "Times New Roman", 14, "bold")) 
+# Draw a heart 
+heart() 
+  
+# Write text 
+txt() 
+  
+# To hide turtle 
+pen.ht() 
+  
