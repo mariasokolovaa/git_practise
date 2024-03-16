@@ -47,7 +47,7 @@ def txt():
     pen.down() 
   
     # Set the text color to lightgreen 
-    pen.color('pink') 
+    pen.color('red') 
     pen.write("GeeksForGeeks", font=( 
       "Verdana", 12, "bold")) 
 # Draw a heart 
