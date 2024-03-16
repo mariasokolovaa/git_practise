@@ -50,4 +50,12 @@ def txt():
     pen.color('pink') 
     pen.write("GeeksForGeeks", font=( 
       "Verdana", 12, "bold")) 
+# Draw a heart 
+heart() 
+  
+# Write text 
+txt() 
+  
+# To hide turtle 
+pen.ht() 
   
