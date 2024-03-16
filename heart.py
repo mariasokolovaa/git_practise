@@ -49,7 +49,7 @@ def txt():
     # Set the text color to lightgreen 
     pen.color('pink') 
     pen.write("GeeksForGeeks", font=( 
-      "Verdana", 12, "bold")) 
+      "Times New Roman", 12, "bold")) 
 # Draw a heart 
 heart() 
   
