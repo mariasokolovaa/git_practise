@@ -13,8 +13,8 @@ def curve():
 
 def heart(): 
 
-	# Set the fill color to red 
-	pen.fillcolor('red') 
+	# Set the fill color to pink 
+	pen.fillcolor('pink')
 
 	# Start filling the color 
 	pen.begin_fill() 
