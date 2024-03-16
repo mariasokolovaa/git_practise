@@ -13,8 +13,8 @@ def curve():
 
 def heart(): 
 
-	# Set the fill color to red 
-	pen.fillcolor('red') 
+	# Set the fill color to pink 
+	pen.fillcolor('pink')
 
 	# Start filling the color 
 	pen.begin_fill() 
@@ -48,8 +48,8 @@ def txt():
   
     # Set the text color to lightgreen 
     pen.color('pink') 
-    pen.write("Heart", font=( 
-      "Times New Roman", 14, "bold")) 
+    pen.write("GeeksForGeeks", font=( 
+      "Verdana", 12, "bold")) 
 # Draw a heart 
 heart() 
   
